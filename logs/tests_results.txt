@@ -12,8 +12,8 @@ Traceback (most recent call last):
     output = [exercice.to_degrees(v) for v in values]
   File "test_exercice.py", line 56, in <listcomp>
     output = [exercice.to_degrees(v) for v in values]
-  File "/home/runner/work/c01_ch3_exercices-Donphan29/c01_ch3_exercices-Donphan29/exercice.py", line 18, in to_degrees
-    minutes = (deg - int(deg)) * 60
+  File "/home/runner/work/c01_ch3_exercices-Donphan29/c01_ch3_exercices-Donphan29/exercice.py", line 20, in to_degrees
+    return  deg, minutes, seconds
 NameError: name 'deg' is not defined
 
 ======================================================================
