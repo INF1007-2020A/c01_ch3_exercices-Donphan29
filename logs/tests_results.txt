@@ -10,14 +10,18 @@ FAIL: test_to_celsius (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 74, in test_to_celsius
     'Mauvais calcul de farenheit -> celsius'
-AssertionError: Lists differ: [255.3722222222222, 241.48333333333332, 505.9277777777778] != [-17.77777777777778, -31.666666666666664, 232.77777777777777]
+AssertionError: Lists differ: [-17.77777777777778, -31.666666666666668, 232.7777777777778] != [-17.77777777777778, -31.666666666666664, 232.77777777777777]
 
-First differing element 0:
-255.3722222222222
--17.77777777777778
+First differing element 1:
+-31.666666666666668
+-31.666666666666664
 
-- [255.3722222222222, 241.48333333333332, 505.9277777777778]
-+ [-17.77777777777778, -31.666666666666664, 232.77777777777777] : Mauvais calcul de farenheit -> celsius
+- [-17.77777777777778, -31.666666666666668, 232.7777777777778]
+?                                        ^                  ^
+
++ [-17.77777777777778, -31.666666666666664, 232.77777777777777]
+?                                        ^                  ^^
+ : Mauvais calcul de farenheit -> celsius
 
 ======================================================================
 FAIL: test_to_degrees (__main__.TestExercice)
